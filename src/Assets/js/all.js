@@ -699,7 +699,7 @@
     }
   }
 
-  // ===Portfolio===
+  // ===Works===
   function projectMasonaryLayout() {
     if ($(".masonary-layout").length) {
       $(".masonary-layout").isotope({

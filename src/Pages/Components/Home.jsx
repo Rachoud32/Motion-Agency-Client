@@ -1,8 +1,8 @@
 import React from 'react'
 import Slider from '../Home-blocks/Slider'
 import About from '../Home-blocks/About'
-import Portfolio from '../Home-blocks/Portfolio'
-import Advantages from '../Home-blocks/Advantages'
+import Works from '../Home-blocks/Works'
+import Services from '../Home-blocks/Services'
 import Clients from '../Home-blocks/Clients'
 
 const Home = () => {
@@ -10,8 +10,8 @@ const Home = () => {
     <div>
         <Slider/>
         <About/>
-        <Portfolio/>
-        <Advantages/>
+        <Services/>
+        <Works/>
         <Clients/>
     </div>
   )

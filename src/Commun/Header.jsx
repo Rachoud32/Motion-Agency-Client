@@ -1,33 +1,132 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-
+import React from "react";
+import { NavLink } from "react-router-dom";
+import jQuery from 'jquery'
+import { default as logo } from '../Assets/img/logo-white-t.svg';
 const Header = () => {
+  const mobileToggler = ()=>
+  {
+    if (jQuery(".mobile-nav__toggler").length) {
+      console.log(jQuery(".mobile-nav__toggler").length);
+      jQuery(".mobile-nav__toggler").on("click", function (e) {
+        e.preventDefault();
+        jQuery(".mobile-nav__wrapper").toggleClass("expanded");
+        jQuery("body").toggleClass("locked");
+      });
+    }
+  }
+
+  const searchToggler = () => 
+  {
+    if (jQuery(".search-toggler").length) {
+      jQuery(".search-toggler").on("click", function (e) {
+        e.preventDefault();
+        jQuery(".search-popup").toggleClass("active");
+        jQuery(".mobile-nav__wrapper").removeClass("expanded");
+        jQuery("body").toggleClass("locked");
+      });
+    }
+  }
+
   return (
-    <header className="main-header clearfix">
-      <nav className="main-menu clearfix">
-        <div className="main-menu-wrapper clearfix">
-          <div className="main-menu-wrapper__left">
+    <>
+      <header className="main-header clearfix">
+        <nav className="main-menu clearfix">
+          <div className="main-menu-wrapper clearfix">
+            <div className="main-menu-wrapper__left">
               <div className="main-menu-wrapper__logo">
-                logo
+                <NavLink to="/">
+                  <img className="header-logo" src={logo} alt="" />
+                </NavLink>
               </div>
               <div className="main-menu-wrapper__main-menu">
-                <a href="/" className="mobile-nav__toggler"><i className="fa fa-bars"></i></a>
-                  <ul className="main-menu__list">
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/about">About us</Link></li>
-                    <li><Link to="/services">Services</Link></li>
-                    <li><Link to="/portfolio">Portfolio</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
-                  </ul>
-              </div>  
-
-             
-
+                <NavLink type="button" className="mobile-nav__toggler" onClick={mobileToggler}>
+                  <i className="fa fa-bars"></i>
+                </NavLink>
+                <ul className="main-menu__list">
+                  <li className="active">
+                    <NavLink to="/">Home</NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/about">About us</NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/services">Services</NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/works">Works</NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/contact">Contact</NavLink>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="main-menu-wrapper__right">
+              <div className="main-menu-wrapper__call">
+                <div className="main-menu-wrapper__call-icon">
+                  <span className="icon-phone-call"></span>
+                </div>
+                <div className="main-menu-wrapper__call-number">
+                  <p>Need help? Talk to an expert</p>
+                  <h5>
+                    <NavLink to="/">+1- ( 246 ) 333 - 0079</NavLink>
+                  </h5>
+                </div>
+              </div>
+              <div className="main-menu-wrapper__search-cat">
+                <NavLink onClick={searchToggler} className="main-menu-wrapper__search search-toggler icon-magnifying-glass"></NavLink>
+              </div>
+            </div>
           </div>
-        </div>     
-      </nav>
-    </header>    
-  )
-}
+        </nav>
+      </header>
 
-export default Header
+      <div className="mobile-nav__wrapper">
+        <div className="mobile-nav__overlay mobile-nav__toggler"></div>
+        <div className="mobile-nav__content">
+            <span className="mobile-nav__close mobile-nav__toggler" onClick={mobileToggler}><i className="fa fa-times"></i></span>
+
+            <div className="logo-box">
+                <NavLink to="index.html" aria-label="logo image"><img src="assets/images/resources/logo-1.png" width="155"
+                        alt="" /></NavLink>
+            </div>
+            <div className="mobile-nav__container"></div>
+
+            <ul className="mobile-nav__contact list-unstyled">
+                <li>
+                    <i className="fa fa-envelope"></i>
+                    <NavLink to="/">needhelp@oslim.com</NavLink>
+                </li>
+                <li>
+                    <i className="fa fa-phone-alt"></i>
+                    <NavLink to="/">666 888 0000</NavLink>
+                </li>
+            </ul>
+            <div className="mobile-nav__top">
+                <div className="mobile-nav__social">
+                    <NavLink to="/" className="fab fa-twitter"></NavLink>
+                    <NavLink to="/" className="fab fa-facebook-square"></NavLink>
+                    <NavLink to="/" className="fab fa-pinterest-p"></NavLink>
+                    <NavLink to="/" className="fab fa-instagram"></NavLink>
+                </div>
+            </div>
+        </div>
+      </div>
+      
+      <div className="search-popup">
+        <div className="search-popup__overlay search-toggler"></div>
+        <div className="search-popup__content">
+            <form action="/">
+                <label htmlFor="search" className="sr-only">search here</label>
+                <input type="text" id="search" placeholder="Search Here..." />
+                <button type="submit" aria-label="search submit" className="thm-btn">
+                    <i className="icon-magnifying-glass"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+    </>
+  );
+};
+
+export default Header;
