@@ -1,9 +1,10 @@
 import React from 'react'
-import Slider from '../Home-blocks/Slider'
-import About from '../Home-blocks/About'
-import Works from '../Home-blocks/Works'
-import Services from '../Home-blocks/Services'
-import Clients from '../Home-blocks/Clients'
+import Slider from '../home-blocks/Slider'
+import About from '../home-blocks/About'
+import Works from '../home-blocks/Works'
+import Services from '../home-blocks/Services'
+import Clients from '../home-blocks/Clients'
+
 
 const Home = () => {
   return (

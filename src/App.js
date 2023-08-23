@@ -10,11 +10,13 @@ import "./Assets/css/style.css";
 import "./Assets/css/responsive.css";
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-const Home = lazy(() => import("./pages/Components/Home"));
-const About = lazy(() => import("./pages/Components/About"));
-const Services = lazy(() => import("./pages/Components/Services"));
-const Works = lazy(() => import("./pages/Components/Works"));
-const Contact = lazy(() => import("./pages/Components/Contact"));
+import Gototop from "./pages/others/Gototop";
+
+const Home = lazy(() => import("./pages/components/Home"));
+const About = lazy(() => import("./pages/components/About"));
+const Services = lazy(() => import("./pages/components/Services"));
+const Works = lazy(() => import("./pages/components/Works"));
+const Contact = lazy(() => import("./pages/components/Contact"));
 const Loader = <div className="preloader"><img className="preloader__image" width="60" src='Assets/img/loader.png' alt="" /></div>
 
 function App() {
@@ -44,6 +46,7 @@ function App() {
           </Routes>
         </Suspense>
         <Footer />
+        <Gototop/>
       </Router>
     </div>
   );

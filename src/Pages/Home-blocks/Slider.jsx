@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import 'swiper/css/effect-fade';
-import SwiperNavButtons from "../Others/SwiperNavButtons";
+import SwiperNavButtons from "../others/SwiperNavButtons";
 
 const Slider = () => {
   return (
@@ -21,7 +21,7 @@ const Slider = () => {
         loop={true}
         effect="fade"
         navigation={false}
-        pagination={false}
+        pagination={true}
         scrollbar={{ draggable: true }}
       >
         <SwiperSlide>

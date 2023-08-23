@@ -12,7 +12,7 @@ const Works = () => {
         </div>
         <div className="row">
           <div className="col-xl-12">
-            <OwlCarousel className="case-two__carousel owl-theme owl-carousel" loop autoplay>
+            <OwlCarousel className="case-two__carousel owl-theme owl-carousel" loop margin={30} autoplay>
               <div className="case-one__single">
                 <div className="case-one__img">
                   <img src="../Assets/img/works/work-1-1.jpg" alt="" />
