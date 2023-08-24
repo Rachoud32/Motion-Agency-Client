@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { default as FooterLogo } from '../Assets/img/logo-white-t.svg';
 
 const Footer = () => {
   return (
@@ -31,7 +32,7 @@ const Footer = () => {
                     <div className="footer-widget__column footer-widget__about">
                         <div className="footer-widget__logo">
                             <Link to="/">
-                              <img src="assets/images/resources/logo-1.png" alt=""/>
+                              <img src={FooterLogo} alt="" width={180}/>
                            </Link >
                         </div>
                         <div className="footer-widget__about-text-box">

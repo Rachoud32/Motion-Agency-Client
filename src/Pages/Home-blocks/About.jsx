@@ -13,14 +13,14 @@ const About = () => {
                             <div className="welcome-one__top-left">
                                 <div className="section-title text-left">
                                     <span className="section-title__tagline">welcome to our agency</span>
-                                    <h2 className="section-title__title">Secure & Safe Advices for your Small & Big
+                                    <h2 className="section-title__title animate__animated animate__bounce">Secure & Safe Advices for your Small & Big
                                         Businesses</h2>
                                 </div>
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-6">
                             <div className="welcome-one__top-right">
-                                <div className="welcome-one__counter">
+                                <div className="welcome-one__intro">
                                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing. Perspiciatis ipsum vero optio rerum molestiae, sintory ducimus, 
                                     rem labore et delectus aspernatur! Sequi debitis vero, molestiae tempore eligendi quam sit repudiandae deleniti alias quority accusamus.
                                   </p>

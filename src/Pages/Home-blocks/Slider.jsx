@@ -14,14 +14,14 @@ const Slider = () => {
         modules={[ Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]}
         spaceBetween={0}
         autoplay={{
-          delay: 4000,
+          delay: 7000,
           disableOnInteraction: false,
         }}
         slidesPerView={1}
         loop={true}
         effect="fade"
         navigation={false}
-        pagination={true}
+        pagination={false}
         scrollbar={{ draggable: true }}
       >
         <SwiperSlide>
