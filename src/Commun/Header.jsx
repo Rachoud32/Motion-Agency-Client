@@ -6,8 +6,6 @@ import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
 const Header = ({showSecondNav}) => {
 
-  console.log(showSecondNav)
-
   const [isSearchPopupActive, setIsSearchPopupActive] = useState(false);
   const [isMobileNavExpanded, setIsMobileNavExpanded] = useState(false);
   const [isBodyLocked, setIsBodyLocked] = useState(false);
@@ -45,8 +43,14 @@ const Header = ({showSecondNav}) => {
                   <li>
                     <NavLink to="/about">About us</NavLink>
                   </li>
-                  <li>
+                  <li className="dropdown">
                     <NavLink to="/services">Services</NavLink>
+                    <ul>
+                        <li><NavLink to="/service-details">Service 1</NavLink></li>
+                        <li><NavLink to="/service-details">Service 2</NavLink></li>
+                        <li><NavLink to="/service-details">Service 3</NavLink></li>
+                        <li><NavLink to="/service-details">Service 4</NavLink></li>
+                    </ul>
                   </li>
                   <li>
                     <NavLink to="/works">Works</NavLink>
@@ -65,7 +69,7 @@ const Header = ({showSecondNav}) => {
                 <div className="main-menu-wrapper__call-number">
                   <p>Need help? Talk to an expert</p>
                   <h5>
-                    <NavLink to="/">+1- ( 246 ) 333 - 0079</NavLink>
+                    <NavLink to="/">( +216 ) 74 201 720</NavLink>
                   </h5>
                 </div>
               </div>
@@ -98,8 +102,14 @@ const Header = ({showSecondNav}) => {
                   <li>
                     <NavLink to="/about">About us</NavLink>
                   </li>
-                  <li>
+                  <li className="dropdown">
                     <NavLink to="/services">Services</NavLink>
+                    <ul>
+                        <li><NavLink to="/service-details">Service 1</NavLink></li>
+                        <li><NavLink to="/service-details">Service 2</NavLink></li>
+                        <li><NavLink to="/service-details">Service 3</NavLink></li>
+                        <li><NavLink to="/service-details">Service 4</NavLink></li>
+                    </ul>
                   </li>
                   <li>
                     <NavLink to="/works">Works</NavLink>
@@ -118,7 +128,7 @@ const Header = ({showSecondNav}) => {
                 <div className="main-menu-wrapper__call-number">
                   <p>Need help? Talk to an expert</p>
                   <h5>
-                    <NavLink to="/">+1- ( 246 ) 333 - 0079</NavLink>
+                    <NavLink to="/">( +216 ) 74 201 720</NavLink>
                   </h5>
                 </div>
               </div>
@@ -148,8 +158,14 @@ const Header = ({showSecondNav}) => {
                   <li>
                     <NavLink to="/about" onClick={mobileToggler}>About us</NavLink>
                   </li>
-                  <li>
+                  <li className="dropdown">
                     <NavLink to="/services" onClick={mobileToggler}>Services</NavLink>
+                    <ul>
+                        <li><NavLink to="/service-details" onClick={mobileToggler}>Service 1</NavLink></li>
+                        <li><NavLink to="/service-details" onClick={mobileToggler}>Service 2</NavLink></li>
+                        <li><NavLink to="/service-details" onClick={mobileToggler}>Service 3</NavLink></li>
+                        <li><NavLink to="/service-details" onClick={mobileToggler}>Service 4</NavLink></li>
+                    </ul>
                   </li>
                   <li>
                     <NavLink to="/works" onClick={mobileToggler}>Works</NavLink>

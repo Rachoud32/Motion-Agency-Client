@@ -13,7 +13,7 @@ const About = () => {
                             <div className="welcome-one__top-left">
                                 <div className="section-title text-left">
                                     <span className="section-title__tagline">welcome to our agency</span>
-                                    <h2 className="section-title__title animate__animated animate__bounce">Secure & Safe Advices for your Small & Big
+                                    <h2 className="section-title__title">Secure & Safe Advices for your Small & Big
                                         Businesses</h2>
                                 </div>
                             </div>

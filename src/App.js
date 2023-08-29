@@ -10,14 +10,18 @@ import "./App.css";
 import "./Assets/css/style.css";
 import "./Assets/css/responsive.css";
 import "animate.css"
+import { jarallax } from "jarallax";
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+
 
 const Home = lazy(() => import("./pages/components/Home"));
 const About = lazy(() => import("./pages/components/About"));
 const Services = lazy(() => import("./pages/components/Services"));
+const ServiceDetails = lazy(() => import("./pages/components/ServiceDetails"));
 const Works = lazy(() => import("./pages/components/Works"));
 const Contact = lazy(() => import("./pages/components/Contact"));
+const Page404 = lazy(() => import("./pages/components/Page404"));
 const Loader = <div className="preloader"><img className="preloader__image" width="60" src='Assets/img/loader.png' alt="" /></div>
 
 function App() {
@@ -40,6 +44,11 @@ function App() {
           setShowSecondNav(false)
       }
     });
+
+    jarallax(document.querySelectorAll('.jarallax'), {
+      type: 'scroll',
+      speed: 0.2
+    });
     
 	}, [])
   
@@ -52,8 +61,10 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/service-details" element={<ServiceDetails />} />
             <Route path="/works" element={<Works />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<Page404 />} />
           </Routes>
         </Suspense>
         <Footer />

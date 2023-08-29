@@ -169,9 +169,6 @@ const Advantages = () => {
               className="col-xl-3 col-lg-6 col-md-6 wow fadeInLeft"
               data-wow-delay="400ms"
             >
-              <Link to="about.html" className="thm-btn our-mission-two__btn">
-                Discover More
-              </Link>
             </div>
           </div>
         </div>

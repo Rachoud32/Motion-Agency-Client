@@ -40,9 +40,7 @@ const Footer = () => {
                                 Businesses</p>
                         </div>
                         <div className="site-footer__social">
-                            <Link to="/"><i className="fab fa-twitter"></i></Link>
-                            <Link to="/"><i className="fab fa-facebook"></i></Link>
-                            <Link to="/"><i className="fab fa-pinterest-p"></i></Link>
+                            <Link to="/"><i className="fab fa-facebook-f"></i></Link>
                             <Link to="/"><i className="fab fa-instagram"></i></Link>
                         </div>
                     </div>
@@ -74,8 +72,7 @@ const Footer = () => {
                         <h3 className="footer-widget__title">Contact</h3>
                         <p className="footer-widget__contact-text">Habib Maazoun Road Mondial building, 3rd floor, App 19</p>
                         <h4 className="footer-widget__contact-info">
-                            <Link to="tel:12463330079" className="footer-widget__contact-number d-block">+1- ( 246 ) 333 -
-                                0079</Link>
+                            <Link to="tel:12463330079" className="footer-widget__contact-number d-block">( +216 ) 74 201 720</Link>
                             <Link to="mailto:contact@motion-me.com"
                                 className="footer-widget__contact-email">contact@motion-me.com</Link >
                         </h4>
