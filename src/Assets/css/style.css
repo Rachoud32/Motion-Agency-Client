@@ -7614,6 +7614,44 @@ input[type="search"]::-webkit-search-results-decoration {
     }
 }
 
+.works-filters input[type='radio'] + .underlined-btn {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: var(--motion-black);
+    position: relative;
+    transition: all 500ms ease;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+}
+
+.works-filters input[type='radio']:checked + .underlined-btn {
+    color: var(--motion-base);
+}
+
+.works-filters input[type='radio'] + .underlined-btn::before {
+    content: "";
+    height: 1px;
+    border-radius: 0px;
+    background-color: var(--motion-second);
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    right: 0;
+    transition: transform 500ms ease;
+    transform: scale(0, 1);
+    transform-origin: left center;
+    z-index: 1;
+}
+
+.works-filters input[type='radio']:checked + .underlined-btn::before{
+    transform: scale(1, 1);
+    transform-origin: right center;
+    background-color: var(--motion-base);
+}
+
 /*--------------------------------------------------------------
 # Case Details
 --------------------------------------------------------------*/
@@ -7638,7 +7676,7 @@ input[type="search"]::-webkit-search-results-decoration {
     bottom: 0;
     right: 0;
     background-color: var(--motion-white);
-    padding: 53px 60px 53px;
+    padding: 40px 60px;
     border-top-left-radius: 3px;
 }
 
@@ -7689,7 +7727,8 @@ input[type="search"]::-webkit-search-results-decoration {
 .case-details__content {
     position: relative;
     display: block;
-    margin-top: 52px;
+    padding-top: 130px;
+    padding-bottom: 130px;
 }
 
 .case-details__content-left {
@@ -7843,6 +7882,32 @@ input[type="search"]::-webkit-search-results-decoration {
 .case-details__pagination li a:hover i {
     color: var(--motion-white);
     background-color: var(--motion-base);
+}
+
+.background-extras,
+.work-more-details {
+    padding: 130px 0;
+    overflow: hidden;
+}
+
+.background-extras img {
+    max-width: 100%;
+    height: auto;
+}
+
+.padding-five-lr {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.case-picture-block {
+    margin-bottom: 30px;
+}
+
+.case-picture-block img {
+    width: 100%;
+    height: auto;
+    float: left;
 }
 
 /*--------------------------------------------------------------
@@ -8092,7 +8157,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .service-details__two-icon-single {
     position: relative;
     display: block;
-    max-width: 360px;
+    max-width: 340px;
     width: 100%;
     padding-left: 90px;
     float: left;
