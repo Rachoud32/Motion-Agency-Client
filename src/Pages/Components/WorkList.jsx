@@ -17,7 +17,8 @@ export default function WorkList() {
       new Isotope(".filter-container", {
         itemSelector: ".filter-item",
         layoutMode: "fitRows",
-        columnWidth: ".col-xl-4",
+        percentPosition: true,
+        columnWidth: ".col-lg-4",
         fitRows: { gutter: 30 },
       })
     );
