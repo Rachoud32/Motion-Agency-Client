@@ -1,53 +1,13 @@
 import { faUserCircle } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
+import WorkDetailsHeader from "../title-headers/WorkDetailsHeader";
 
 const WorkDetails = () => {
-  const [toggler, setToggler] = useState({
-    toggler:false,
-    sourceIndex: 0,
-  });
-
-  const openImage = (index) => {
-    setToggler({
-      toggler: !toggler.toggler,
-      sourceIndex: index,
-    });
-  };
-
   return (
     <>
-      <section className="page-header">
-        <div
-          className="page-header-bg"
-          style={{
-            backgroundImage: "url(Assets/img/headers/works-header-bg.jpg)",
-          }}
-        ></div>
-        <div className="page-header-shape-1 float-bob-x-6"></div>
-        <div className="page-header-shape-2 float-bob-x-7"></div>
-        <div className="container">
-          <div className="page-header__inner">
-            <ul className="thm-breadcrumb list-unstyled">
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <span>/</span>
-              </li>
-              <li>
-                <Link to="/works">Works</Link>
-              </li>
-              <li>
-                <span>/</span>
-              </li>
-              <li>Work Details</li>
-            </ul>
-            <h2>Work Details</h2>
-          </div>
-        </div>
-      </section>
+      <WorkDetailsHeader/>
 
       <section className="case-details">
         <div className="container">
