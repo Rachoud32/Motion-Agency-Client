@@ -18,8 +18,8 @@ const WorkDetails = () => {
               <h4 className="case-details__content-title">
                 The challenge
               </h4>
-              <div className="row">
-                <div className="col-lg-7 pe-5 wow animate__fadeIn">
+              <div className="row justify-content-md-center">
+                <div className="col-lg-12 mb-5 wow animate__fadeIn">
                   <p className="case-details__content-text-1">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
@@ -33,11 +33,9 @@ const WorkDetails = () => {
                   </p>
                 </div>
 
-                <div className="col-lg-5 wow animate__fadeIn">
+                <div className="col-xl-6 mb-3">
                   <div className="case-details__details-box">
-                  <ul className="list-unstyled case-details__details">
-                    
-                    <li>
+                    <div className="d-flex justify-content-between">
                       <div className="d-flex">
                         <div className="case-details__details-icon">
                           <FontAwesomeIcon icon={faUserCircle} size="lg"/>
@@ -47,69 +45,74 @@ const WorkDetails = () => {
                         </div>
                       </div>
                       <p className="case-details__details-title">Jessica Brown</p>
-                    </li>
+                    </div>
+                  </div>
+                </div>
 
-                    <li>
+                  <div className="col-xl-6 mb-3">
+                  <div className="case-details__details-box">
+                    <div className="d-flex justify-content-between">
                       <div className="d-flex">
                         <div className="case-details__details-icon">
                           <FontAwesomeIcon icon={faUserCircle} size="lg"/>
                         </div>
-                        <div className="case-details__details-content d-flex">
-                          <span className="case-details__details-sub-title">
-                            Industry
-                          </span>
-                        </div>  
+                        <div className="case-details__details-sub-title">
+                        Industry
+                        </div>
                       </div>
                       <p className="case-details__details-title">Travel</p>
-                    </li>
+                    </div>
+                  </div>
+                  </div>
 
-                    <li>
-                      <div className="d-flex">
-                        <div className="case-details__details-icon">
-                        <FontAwesomeIcon icon={faUserCircle} size="lg"/>
-                        </div>
-                        <div className="case-details__details-content d-flex">
-                          <span className="case-details__details-sub-title">
-                            Services
-                          </span>
-                        </div>
-                      </div>
-                      <p className="case-details__details-title"> Design, Art Direction, Website</p>
-                    </li>
-
-                    <li>
+                  <div className="col-xl-6 mb-3">
+                  <div className="case-details__details-box">
+                    <div className="d-flex justify-content-between">
                       <div className="d-flex">
                         <div className="case-details__details-icon">
                           <FontAwesomeIcon icon={faUserCircle} size="lg"/>
                         </div>
-                        <div className="case-details__details-content d-flex">
-                          <span className="case-details__details-sub-title">
-                            Date
-                          </span>
+                        <div className="case-details__details-sub-title">
+                        Services
                         </div>
                       </div>
-                      <p className="case-details__details-title"> January 16th, 2017</p>
-                    </li>
+                      <p className="case-details__details-title">Design, Art Direction, Website</p>
+                    </div>
+                  </div>
+                  </div>
 
-                    <li>
-                    <div className="d-flex">
-                      <div className="case-details__details-icon">
-                        <FontAwesomeIcon icon={faUserCircle} size="lg"/>  
+                  <div className="col-xl-6 mb-3">
+                  <div className="case-details__details-box">
+                    <div className="d-flex justify-content-between">
+                      <div className="d-flex">
+                        <div className="case-details__details-icon">
+                          <FontAwesomeIcon icon={faUserCircle} size="lg"/>
+                        </div>
+                        <div className="case-details__details-sub-title">
+                        Date
+                        </div>
                       </div>
-                      <div className="case-details__details-content d-flex">
-                        <span className="case-details__details-sub-title">
+                      <p className="case-details__details-title">January 16th, 2017</p>
+                    </div>
+                  </div>
+                  </div>
+
+                  <div className="col-xl-6 mb-3">
+                    <div className="case-details__details-box">
+                      <div className="d-flex justify-content-between">
+                        <div className="d-flex">
+                          <div className="case-details__details-icon">
+                            <FontAwesomeIcon icon={faUserCircle} size="lg"/>
+                          </div>
+                          <div className="case-details__details-sub-title">
                           Website
-                        </span>
-                       </div>
+                          </div>
+                        </div>
+                        <p className="case-details__details-title">work.com</p>
                       </div>
-                      <p className="case-details__details-title">
-                          work.com
-                        </p>
-                    </li>
-                    
-                  </ul>
+                    </div>
                 </div>
-                </div>
+
               </div>
             </div>
           </div>

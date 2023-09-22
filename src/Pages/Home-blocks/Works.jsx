@@ -12,10 +12,10 @@ const Works = () => {
         </div>
         <div className="row">
           <div className="col-xl-12">
-            <OwlCarousel className="case-two__carousel owl-theme owl-carousel" fluidSpeed items={3} loop margin={30}> {/*autoplay*/}
+            <OwlCarousel className="case-two__carousel owl-theme owl-carousel" fluidSpeed items={1} loop margin={30}> {/*autoplay*/}
               <div className="case-one__single">
                 <div className="case-one__img">
-                  <img src="../Assets/img/works/work-1.webp" alt="" />
+                  <img src="../Assets/img/works/work-home.webp" alt="" />
                 </div>
                 <div className="case-one__content">
                   <p className="case-one__tagline">leadership</p>
@@ -24,17 +24,17 @@ const Works = () => {
                       Businesses <br /> Growth
                     </Link>
                   </h3>
-                </div>
-                <div className="case-one__arrow">
-                  <Link to="/">
-                    <span className="icon-right-arrow"></span>
-                  </Link>
+                  <div className="case-one__arrow">
+                    <Link to="/">
+                      <span className="icon-right-arrow"></span>
+                    </Link>
+                  </div>
                 </div>
               </div>
 
               <div className="case-one__single">
                 <div className="case-one__img">
-                  <img src="../Assets/img/works/work-1.webp" alt="" />
+                  <img src="../Assets/img/works/work-home.webp" alt="" />
                 </div>
                 <div className="case-one__content">
                   <p className="case-one__tagline">Management</p>
@@ -43,17 +43,17 @@ const Works = () => {
                       Marketing <br /> Advice
                     </Link>
                   </h3>
-                </div>
-                <div className="case-one__arrow">
-                  <Link to="/">
-                    <span className="icon-right-arrow"></span>
-                  </Link>
+                  <div className="case-one__arrow">
+                    <Link to="/">
+                      <span className="icon-right-arrow"></span>
+                    </Link>
+                  </div>
                 </div>
               </div>
 
               <div className="case-one__single">
                 <div className="case-one__img">
-                  <img src="../Assets/img/works/work-1.webp" alt="" />
+                  <img src="../Assets/img/works/work-home.webp" alt="" />
                 </div>
                 <div className="case-one__content">
                   <p className="case-one__tagline">strategy</p>
@@ -62,17 +62,17 @@ const Works = () => {
                       Finance <br /> Consulting
                     </Link>
                   </h3>
-                </div>
-                <div className="case-one__arrow">
-                  <Link to="/">
-                    <span className="icon-right-arrow"></span>
-                  </Link>
+                  <div className="case-one__arrow">
+                    <Link to="/">
+                      <span className="icon-right-arrow"></span>
+                    </Link>
+                  </div>
                 </div>
               </div>
 
               <div className="case-one__single">
                 <div className="case-one__img">
-                  <img src="../Assets/img/works/work-1.webp" alt="" />
+                  <img src="../Assets/img/works/work-home.webp" alt="" />
                 </div>
                 <div className="case-one__content">
                   <p className="case-one__tagline">growth</p>
@@ -81,17 +81,17 @@ const Works = () => {
                       Digital <br /> Campaigns
                     </Link>
                   </h3>
-                </div>
-                <div className="case-one__arrow">
-                  <Link to="/">
-                    <span className="icon-right-arrow"></span>
-                  </Link>
+                  <div className="case-one__arrow">
+                    <Link to="/">
+                      <span className="icon-right-arrow"></span>
+                    </Link>
+                  </div>
                 </div>
               </div>
 
               <div className="case-one__single">
                 <div className="case-one__img">
-                  <img src="../Assets/img/works/work-1.webp" alt="" />
+                  <img src="../Assets/img/works/work-home.webp" alt="" />
                 </div>
                 <div className="case-one__content">
                   <p className="case-one__tagline">strategy</p>
@@ -100,17 +100,17 @@ const Works = () => {
                       Finance <br /> Consulting
                     </Link>
                   </h3>
-                </div>
-                <div className="case-one__arrow">
-                  <Link to="/">
-                    <span className="icon-right-arrow"></span>
-                  </Link>
+                  <div className="case-one__arrow">
+                    <Link to="/">
+                      <span className="icon-right-arrow"></span>
+                    </Link>
+                  </div>
                 </div>
               </div>
 
               <div className="case-one__single">
                 <div className="case-one__img">
-                  <img src="../Assets/img/works/work-1.webp" alt="" />
+                  <img src="../Assets/img/works/work-home.webp" alt="" />
                 </div>
                 <div className="case-one__content">
                   <p className="case-one__tagline">growth</p>
@@ -119,17 +119,17 @@ const Works = () => {
                       Digital <br /> Campaigns
                     </Link>
                   </h3>
-                </div>
-                <div className="case-one__arrow">
-                  <Link to="/">
-                    <span className="icon-right-arrow"></span>
-                  </Link>
+                  <div className="case-one__arrow">
+                    <Link to="/">
+                      <span className="icon-right-arrow"></span>
+                    </Link>
+                  </div>
                 </div>
               </div>
 
               <div className="case-one__single">
                 <div className="case-one__img">
-                  <img src="../Assets/img/works/work-1.webp" alt="" />
+                  <img src="../Assets/img/works/work-home.webp" alt="" />
                 </div>
                 <div className="case-one__content">
                   <p className="case-one__tagline">Management</p>
@@ -138,11 +138,11 @@ const Works = () => {
                       Marketing <br /> Advice
                     </Link>
                   </h3>
-                </div>
-                <div className="case-one__arrow">
-                  <Link to="/">
-                    <span className="icon-right-arrow"></span>
-                  </Link>
+                  <div className="case-one__arrow">
+                    <Link to="/">
+                      <span className="icon-right-arrow"></span>
+                    </Link>
+                  </div>
                 </div>
               </div> 
               </OwlCarousel>

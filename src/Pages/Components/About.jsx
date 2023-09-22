@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Experience from '../about-blocks/Experience'
 import Consultation from '../about-blocks/Consultation'
 import Quality from '../about-blocks/Quality'

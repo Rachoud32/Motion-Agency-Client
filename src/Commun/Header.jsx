@@ -175,25 +175,6 @@ const Header = ({showSecondNav}) => {
                   </li>
                 </ul>
             </div>
-
-            <ul className="mobile-nav__contact list-unstyled">
-                <li>
-                    <i className="fa fa-envelope"></i>
-                    <NavLink to="/">needhelp@oslim.com</NavLink>
-                </li>
-                <li>
-                    <i className="fa fa-phone-alt"></i>
-                    <NavLink to="/">666 888 0000</NavLink>
-                </li>
-            </ul>
-            <div className="mobile-nav__top">
-                <div className="mobile-nav__social">
-                    <NavLink to="/" className="fab fa-twitter"></NavLink>
-                    <NavLink to="/" className="fab fa-facebook-square"></NavLink>
-                    <NavLink to="/" className="fab fa-pinterest-p"></NavLink>
-                    <NavLink to="/" className="fab fa-instagram"></NavLink>
-                </div>
-            </div>
         </div>
       </div>
       

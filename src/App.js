@@ -10,9 +10,9 @@ import "./App.css";
 import "./Assets/css/style.css";
 import "./Assets/css/responsive.css";
 import "animate.css"
-import { jarallax } from "jarallax";
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import AnimatedCursor from "react-animated-cursor";
 
 const Home = lazy(() => import("./pages/components/Home"));
 const About = lazy(() => import("./pages/components/About"));
@@ -44,15 +44,41 @@ function App() {
           setShowSecondNav(false)
       }
     });
-
-    jarallax(document.querySelectorAll('.jarallax'), {
-      type: 'scroll',
-      speed: 0.2
-    });
-    
 	}, [])
   
   return (
+    <>
+    <AnimatedCursor
+    innerSize={8}
+    outerSize={8}
+    color='243, 122, 45'
+    outerAlpha={1}
+    innerScale={0}
+    innerStyle={{
+      backgroundColor: '#F37A2D',
+      zIndex: '999'
+    }}
+    outerStyle={{
+      zIndex: '999'
+    }}
+    outerScale={2}
+    clickables={[
+      'a',
+      'input[type="text"]',
+      'input[type="email"]',
+      'input[type="number"]',
+      'input[type="submit"]',
+      'input[type="image"]',
+      'label[for]',
+      'select',
+      'textarea',
+      'button',
+      '.link',
+      '.swiper-button-next',
+      '.swiper-button-prev',
+      '.search-close',
+      '.mobile-nav__close'
+    ]}/>
     <div className="page-wrapper">
       <Router>
         <Header showSecondNav={showSecondNav} />
@@ -72,6 +98,7 @@ function App() {
         <Gototop/>
       </Router>
     </div>
+    </>
   );
 }
 

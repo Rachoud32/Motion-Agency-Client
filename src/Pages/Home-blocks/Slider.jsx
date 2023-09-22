@@ -6,6 +6,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import 'swiper/css/effect-fade';
 import SwiperNavButtons from "../others/SwiperNavButtons";
+import { Link } from "react-router-dom";
 
 const Slider = () => {
   return (
@@ -16,15 +17,19 @@ const Slider = () => {
         autoplay={{
           delay: 7000,
           disableOnInteraction: false,
+          pauseOnMouseEnter: true
         }}
         slidesPerView={1}
         loop={true}
         effect="fade"
         navigation={false}
-        pagination={false}
+        pagination={true}
+        grabCursor={true}
         scrollbar={{ draggable: true }}
       >
         <SwiperSlide>
+          <div className="image-overlay"></div>
+          <div className="image-overlay-2"></div>
           <div className="image-layer"
             style={{backgroundImage: 'url(Assets/img/sliders/main-slider-1-1.jpg)'}}>
           </div>
@@ -35,8 +40,9 @@ const Slider = () => {
             <div className="row">
               <div className="col-xl-7">
                 <div className="main-slider__content">
-                    <h2>Award <br/> winning <br/> consulting</h2>
-                    <a href="about.html" className="thm-btn">Discover More</a>
+                    <h2>Design build <br/>connections</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat hic soluta expedita voluptates iste nostrum doloribus atque, laborum sit quod.</p>
+                    <Link to="/" className="thm-btn">Discover More</Link>
                 </div>
               </div>
             </div>   
@@ -44,6 +50,8 @@ const Slider = () => {
         </SwiperSlide>
 
         <SwiperSlide className="swiper-slide">
+        <div className="image-overlay"></div>
+        <div className="image-overlay-2"></div>
         <div className="image-layer"
             style={{backgroundImage: 'url(Assets/img/sliders/main-slider-1-2.jpg)'}}>
           </div>
@@ -54,8 +62,9 @@ const Slider = () => {
             <div className="row">
               <div className="col-xl-7">
                 <div className="main-slider__content">
-                    <h2>Award <br/> winning <br/> consulting</h2>
-                    <a href="about.html" className="thm-btn">Discover More</a>
+                    <h2>Digital creative agency</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat hic soluta expedita voluptates iste nostrum doloribus atque, laborum sit quod.</p>
+                    <Link to="/" className="thm-btn">Discover More</Link>
                 </div>
               </div>
             </div>   
@@ -63,6 +72,8 @@ const Slider = () => {
         </SwiperSlide>
 
         <SwiperSlide className="swiper-slide">
+        <div className="image-overlay"></div>
+        <div className="image-overlay-2"></div>
         <div className="image-layer"
             style={{backgroundImage: 'url(Assets/img/sliders/main-slider-1-3.jpg)'}}>
           </div>
@@ -73,8 +84,9 @@ const Slider = () => {
             <div className="row">
               <div className="col-xl-7">
                 <div className="main-slider__content">
-                    <h2>Award <br/> winning <br/> consulting</h2>
-                    <a href="about.html" className="thm-btn">Discover More</a>
+                    <h2>Create emotions in Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat hic soluta expedita voluptates iste nostrum doloribus atque, laborum sit quod.</p>
+                    <Link to="/" className="thm-btn">Discover More</Link>
                 </div>
               </div>
             </div>   

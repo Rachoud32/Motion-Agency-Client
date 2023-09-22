@@ -6,6 +6,7 @@ import Services from '../home-blocks/Services'
 import Clients from '../home-blocks/Clients'
 import Benefits from '../home-blocks/Benefits'
 import Mission from '../home-blocks/Mission'
+import Contact from '../home-blocks/Contact'
 
 
 const Home = () => {
@@ -13,11 +14,12 @@ const Home = () => {
     <div>
         <Slider/>
         <About/>
-        <Mission/>
         <Services/>
+        <Mission/>
         <Benefits/>
         <Works/>
         <Clients/>
+        <Contact/>
     </div>
   )
 }
