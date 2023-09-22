@@ -10,7 +10,7 @@ const ListServices = () => {
                   
                     <div className="services-one__single">
                         <div className="services-one__img">
-                            <img src="../Assets/img/services/services-1-1.jpg" alt=""/>
+                            <img src="../assets/img/services/services-1-1.jpg" alt=""/>
                         </div>
                         <div className="services-one__content">
                             <div className="services-one__title-box">
@@ -31,7 +31,7 @@ const ListServices = () => {
                 <div className="col-xl-4 col-lg-4 col-md-6">
                     <div className="services-one__single">
                         <div className="services-one__img">
-                            <img src="../Assets/img/services/services-1-2.jpg" alt=""/>
+                            <img src="../assets/img/services/services-1-2.jpg" alt=""/>
                         </div>
                         <div className="services-one__content">
                             <div className="services-one__title-box">
@@ -52,7 +52,7 @@ const ListServices = () => {
                 <div className="col-xl-4 col-lg-4 col-md-6">
                     <div className="services-one__single">
                         <div className="services-one__img">
-                            <img src="../Assets/img/services/services-1-3.jpg" alt=""/>
+                            <img src="../assets/img/services/services-1-3.jpg" alt=""/>
                         </div>
                         <div className="services-one__content">
                             <div className="services-one__title-box">
@@ -73,7 +73,7 @@ const ListServices = () => {
                 <div className="col-xl-4 col-lg-4 col-md-6">
                     <div className="services-one__single">
                         <div className="services-one__img">
-                            <img src="../Assets/img/services/services-1-4.jpg" alt=""/>
+                            <img src="../assets/img/services/services-1-4.jpg" alt=""/>
                         </div>
                         <div className="services-one__content">
                             <div className="services-one__title-box">
@@ -94,7 +94,7 @@ const ListServices = () => {
                 <div className="col-xl-4 col-lg-4 col-md-6">
                     <div className="services-one__single">
                         <div className="services-one__img">
-                            <img src="../Assets/img/services/services-1-5.jpg" alt=""/>
+                            <img src="../assets/img/services/services-1-5.jpg" alt=""/>
                         </div>
                         <div className="services-one__content">
                             <div className="services-one__title-box">
@@ -115,7 +115,7 @@ const ListServices = () => {
                 <div className="col-xl-4 col-lg-4 col-md-6">
                     <div className="services-one__single">
                         <div className="services-one__img">
-                            <img src="../Assets/img/services/services-1-6.jpg" alt=""/>
+                            <img src="../assets/img/services/services-1-6.jpg" alt=""/>
                         </div>
                         <div className="services-one__content">
                             <div className="services-one__title-box">

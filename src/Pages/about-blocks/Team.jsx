@@ -14,7 +14,7 @@ const Team = () => {
                   
                   <div className="team-one__single">
                       <div className="team-one__img">
-                          <img src="Assets/img/team/team-1-1.jpg" alt=""/>
+                          <img src="assets/img/team/team-1-1.jpg" alt=""/>
                           <div className="team-one__content">
                               <h3 className="team-one__name">Sarah Albert</h3>
                               <p className="team-one__title">Consultant</p>
@@ -32,7 +32,7 @@ const Team = () => {
               <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                   <div className="team-one__single">
                       <div className="team-one__img">
-                          <img src="Assets/img/team/team-1-1.jpg" alt=""/>
+                          <img src="assets/img/team/team-1-1.jpg" alt=""/>
                           <div className="team-one__content">
                               <h3 className="team-one__name">Mike Hardson</h3>
                               <p className="team-one__title">Advisor</p>
@@ -49,7 +49,7 @@ const Team = () => {
               <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                   <div className="team-one__single">
                       <div className="team-one__img">
-                          <img src="Assets/img/team/team-1-1.jpg" alt=""/>
+                          <img src="assets/img/team/team-1-1.jpg" alt=""/>
                           <div className="team-one__content">
                               <h3 className="team-one__name">Christine Eve</h3>
                               <p className="team-one__title">Manager</p>
@@ -67,7 +67,7 @@ const Team = () => {
               <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
                   <div className="team-one__single">
                       <div className="team-one__img">
-                          <img src="Assets/img/team/team-1-1.jpg" alt=""/>
+                          <img src="assets/img/team/team-1-1.jpg" alt=""/>
                           <div className="team-one__content">
                               <h3 className="team-one__name">Kevin Martin</h3>
                               <p className="team-one__title">Co Founder</p>

@@ -61,7 +61,7 @@ export default function WorkList() {
             >
               <div className="case-one__single">
                 <div className="case-one__img">
-                  <img src="Assets/img/works/work-1.webp" alt="" />
+                  <img src="assets/img/works/work-1.webp" alt="" />
                 </div>
                 <div className="case-one__content">
                   <p className="case-one__tagline">leadership</p>
@@ -85,7 +85,7 @@ export default function WorkList() {
             >
               <div className="case-one__single">
                 <div className="case-one__img">
-                  <img src="Assets/img/works/work-1.webp" alt="" />
+                  <img src="assets/img/works/work-1.webp" alt="" />
                 </div>
                 <div className="case-one__content">
                   <p className="case-one__tagline">leadership</p>
@@ -109,7 +109,7 @@ export default function WorkList() {
             >
               <div className="case-one__single">
                 <div className="case-one__img">
-                  <img src="Assets/img/works/work-1.webp" alt="" />
+                  <img src="assets/img/works/work-1.webp" alt="" />
                 </div>
                 <div className="case-one__content">
                   <p className="case-one__tagline">leadership</p>
@@ -133,7 +133,7 @@ export default function WorkList() {
             >
               <div className="case-one__single">
                 <div className="case-one__img">
-                  <img src="Assets/img/works/work-1.webp" alt="" />
+                  <img src="assets/img/works/work-1.webp" alt="" />
                 </div>
                 <div className="case-one__content">
                   <p className="case-one__tagline">leadership</p>
@@ -157,7 +157,7 @@ export default function WorkList() {
             >
               <div className="case-one__single">
                 <div className="case-one__img">
-                  <img src="Assets/img/works/work-1.webp" alt="" />
+                  <img src="assets/img/works/work-1.webp" alt="" />
                 </div>
                 <div className="case-one__content">
                   <p className="case-one__tagline">leadership</p>
@@ -181,7 +181,7 @@ export default function WorkList() {
             >
               <div className="case-one__single">
                 <div className="case-one__img">
-                  <img src="Assets/img/works/work-1.webp" alt="" />
+                  <img src="assets/img/works/work-1.webp" alt="" />
                 </div>
                 <div className="case-one__content">
                   <p className="case-one__tagline">leadership</p>

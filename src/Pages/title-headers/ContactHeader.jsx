@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const ContactHeader = () => (
     <section className="page-header">
-        <Parallax className="page-header-bg" bgImage={"Assets/img/headers/contact-header-bg.jpg"} strength={500}>
+        <Parallax className="page-header-bg" bgImage={"assets/img/headers/contact-header-bg.jpg"} strength={500}>
             <div className='page-header-overlay'></div>
             <div className='page-header-content d-flex align-items-end'>
                 <div className="page-header-shape-1 float-bob-x-6"></div>

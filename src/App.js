@@ -7,8 +7,8 @@ import Header from "./commun/Header";
 import Footer from "./commun/Footer";
 import Gototop from "./pages/others/Scrolltop";
 import "./App.css";
-import "./Assets/css/style.css";
-import "./Assets/css/responsive.css";
+import "./assets/css/style.css";
+import "./assets/css/responsive.css";
 import "animate.css"
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
@@ -22,7 +22,7 @@ const Works = lazy(() => import("./pages/components/Works"));
 const WorkDetails = lazy(() => import("./pages/components/WorkDetails"));
 const Contact = lazy(() => import("./pages/components/Contact"));
 const Page404 = lazy(() => import("./pages/components/Page404"));
-const Loader = <div className="preloader"><img className="preloader__image" width="60" src='Assets/img/loader.png' alt="" /></div>
+const Loader = <div className="preloader"><img className="preloader__image" width="60" src='assets/img/loader.png' alt="" /></div>
 
 function App() {
   const [showSecondNav, setShowSecondNav] = useState(false)

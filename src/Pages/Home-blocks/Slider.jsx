@@ -31,7 +31,7 @@ const Slider = () => {
           <div className="image-overlay"></div>
           <div className="image-overlay-2"></div>
           <div className="image-layer"
-            style={{backgroundImage: 'url(Assets/img/sliders/main-slider-1-1.jpg)'}}>
+            style={{backgroundImage: 'url(assets/img/sliders/main-slider-1-1.jpg)'}}>
           </div>
           <div className="main-slider-shape-1"></div>
           <div className="main-slider-shape-2"></div>
@@ -53,7 +53,7 @@ const Slider = () => {
         <div className="image-overlay"></div>
         <div className="image-overlay-2"></div>
         <div className="image-layer"
-            style={{backgroundImage: 'url(Assets/img/sliders/main-slider-1-2.jpg)'}}>
+            style={{backgroundImage: 'url(assets/img/sliders/main-slider-1-2.jpg)'}}>
           </div>
           <div className="main-slider-shape-1"></div>
           <div className="main-slider-shape-2"></div>
@@ -75,7 +75,7 @@ const Slider = () => {
         <div className="image-overlay"></div>
         <div className="image-overlay-2"></div>
         <div className="image-layer"
-            style={{backgroundImage: 'url(Assets/img/sliders/main-slider-1-3.jpg)'}}>
+            style={{backgroundImage: 'url(assets/img/sliders/main-slider-1-3.jpg)'}}>
           </div>
           <div className="main-slider-shape-1"></div>
           <div className="main-slider-shape-2"></div>

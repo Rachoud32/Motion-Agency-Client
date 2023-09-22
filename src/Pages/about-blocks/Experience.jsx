@@ -10,7 +10,7 @@ const Experience = () => {
                     <div className="work-together-two__left wow slideInLeft" data-wow-delay="100ms"
                     data-wow-duration="2500ms">
                         <div className="work-together-two__img">
-                            <img src="Assets/img/resources/experience.jpg" alt=""/>
+                            <img src="assets/img/resources/experience.jpg" alt=""/>
                         </div>
                     </div>
                 </div>

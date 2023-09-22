@@ -15,7 +15,7 @@ const Works = () => {
             <OwlCarousel className="case-two__carousel owl-theme owl-carousel" fluidSpeed items={1} loop margin={30}> {/*autoplay*/}
               <div className="case-one__single">
                 <div className="case-one__img">
-                  <img src="../Assets/img/works/work-home.webp" alt="" />
+                  <img src="../assets/img/works/work-home.webp" alt="" />
                 </div>
                 <div className="case-one__content">
                   <p className="case-one__tagline">leadership</p>
@@ -34,7 +34,7 @@ const Works = () => {
 
               <div className="case-one__single">
                 <div className="case-one__img">
-                  <img src="../Assets/img/works/work-home.webp" alt="" />
+                  <img src="../assets/img/works/work-home.webp" alt="" />
                 </div>
                 <div className="case-one__content">
                   <p className="case-one__tagline">Management</p>
@@ -53,7 +53,7 @@ const Works = () => {
 
               <div className="case-one__single">
                 <div className="case-one__img">
-                  <img src="../Assets/img/works/work-home.webp" alt="" />
+                  <img src="../assets/img/works/work-home.webp" alt="" />
                 </div>
                 <div className="case-one__content">
                   <p className="case-one__tagline">strategy</p>
@@ -72,7 +72,7 @@ const Works = () => {
 
               <div className="case-one__single">
                 <div className="case-one__img">
-                  <img src="../Assets/img/works/work-home.webp" alt="" />
+                  <img src="../assets/img/works/work-home.webp" alt="" />
                 </div>
                 <div className="case-one__content">
                   <p className="case-one__tagline">growth</p>
@@ -91,7 +91,7 @@ const Works = () => {
 
               <div className="case-one__single">
                 <div className="case-one__img">
-                  <img src="../Assets/img/works/work-home.webp" alt="" />
+                  <img src="../assets/img/works/work-home.webp" alt="" />
                 </div>
                 <div className="case-one__content">
                   <p className="case-one__tagline">strategy</p>
@@ -110,7 +110,7 @@ const Works = () => {
 
               <div className="case-one__single">
                 <div className="case-one__img">
-                  <img src="../Assets/img/works/work-home.webp" alt="" />
+                  <img src="../assets/img/works/work-home.webp" alt="" />
                 </div>
                 <div className="case-one__content">
                   <p className="case-one__tagline">growth</p>
@@ -129,7 +129,7 @@ const Works = () => {
 
               <div className="case-one__single">
                 <div className="case-one__img">
-                  <img src="../Assets/img/works/work-home.webp" alt="" />
+                  <img src="../assets/img/works/work-home.webp" alt="" />
                 </div>
                 <div className="case-one__content">
                   <p className="case-one__tagline">Management</p>

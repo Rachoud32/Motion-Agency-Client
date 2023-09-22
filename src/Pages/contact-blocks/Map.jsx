@@ -6,7 +6,7 @@ class Map extends Component {
     let marker = new maps.Marker({
       position: { lat: 34.730232, lng: 10.764942 },
       icon: {
-        url: './Assets/img/pin.png', // Replace with the path to your custom image
+        url: './assets/img/pin.png', // Replace with the path to your custom image
         scaledSize: new maps.Size(60, 86), // Adjust the size of your image
         origin: new maps.Point(0, 0),
         anchor: new maps.Point(30, 86), // Adjust the anchor point

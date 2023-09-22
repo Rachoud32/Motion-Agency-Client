@@ -6,7 +6,7 @@ const Mission = () => {
   return (
     <section className="our-mission">
         <div className="our-mission-bg-box">
-            <Parallax className="our-mission-bg jarallax" bgImage={"Assets/img/backgrounds/mission.jpg"} strength={500}>
+            <Parallax className="our-mission-bg jarallax" bgImage={"assets/img/backgrounds/mission.jpg"} strength={500}>
                 <div className="our-mission-overlay"></div>
                 <div className="our-mission-shape-1 shapemover2"></div>
                 <div className="our-mission-shape-2 shapemover2"></div>

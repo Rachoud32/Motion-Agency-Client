@@ -6,7 +6,7 @@ const Mission = () => {
     <section className="our-mission">
         <div className="our-mission-bg-box">
             <div className="our-mission-bg jarallax"
-                style={{backgroundImage: "url(Assets/img/backgrounds/mission.jpg)"}}></div>
+                style={{backgroundImage: "url(assets/img/backgrounds/mission.jpg)"}}></div>
         </div>
         <div className="our-mission-shape-1 shapemover2"></div>
         <div className="our-mission-shape-2 shapemover2"></div>

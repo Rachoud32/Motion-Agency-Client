@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { default as logo } from '../Assets/img/logo-white-t.svg';
+import { default as logo } from '../assets/img/logo-white-t.svg';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 

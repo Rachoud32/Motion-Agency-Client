@@ -5,7 +5,7 @@ const WorkDetailsHeader = () => (
   <section className="page-header">
     <Parallax
       className="page-header-bg"
-      bgImage={"Assets/img/headers/works-header-bg.jpg"}
+      bgImage={"assets/img/headers/works-header-bg.jpg"}
       strength={500}
     >
       <div className="page-header-overlay"></div>

@@ -122,7 +122,7 @@ const WorkDetails = () => {
       <section className="case-picture-block">
         <div className="container-fluid p-0">
           <div className="row">
-            <img src="Assets/img/works/project-block-1.webp" alt=""/>
+            <img src="assets/img/works/project-block-1.webp" alt=""/>
           </div>
         </div>
       </section>
@@ -131,10 +131,10 @@ const WorkDetails = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
-              <img src="Assets/img/works/thumbs/project-block-6-1.webp" alt=""/>
+              <img src="assets/img/works/thumbs/project-block-6-1.webp" alt=""/>
             </div>
             <div className="col-lg-6">
-              <img src="Assets/img/works/thumbs/project-block-7-1.webp" alt=""/>
+              <img src="assets/img/works/thumbs/project-block-7-1.webp" alt=""/>
             </div>
           </div>
         </div>
@@ -173,7 +173,7 @@ const WorkDetails = () => {
       <section className="case-picture-block">
         <div className="container-fluid p-0">
           <div className="row">
-            <img src="Assets/img/works/project-block-9.png" alt=""/>
+            <img src="assets/img/works/project-block-9.png" alt=""/>
           </div>
         </div>
       </section>
@@ -182,10 +182,10 @@ const WorkDetails = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
-                <img src="Assets/img/works/thumbs/project-block-8-1.webp" alt=""/>
+                <img src="assets/img/works/thumbs/project-block-8-1.webp" alt=""/>
             </div>
             <div className="col-lg-6">
-              <img src="Assets/img/works/thumbs/project-block-8-2.webp" alt=""/>
+              <img src="assets/img/works/thumbs/project-block-8-2.webp" alt=""/>
             </div>
           </div>
         </div>

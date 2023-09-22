@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { default as FooterLogo } from '../Assets/img/logo-white-t.svg';
+import { default as FooterLogo } from '../assets/img/logo-white-t.svg';
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="site-footer ">
     <div className="site-footer__top">
         <div className="site-footer-shape-1"
-            style={{backgroundImage: 'url(Assets/img/shapes/site-footer-shape-1.png)'}}></div>
+            style={{backgroundImage: 'url(assets/img/shapes/site-footer-shape-1.png)'}}></div>
         <div className="container">
             <div className="row">
                 <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
